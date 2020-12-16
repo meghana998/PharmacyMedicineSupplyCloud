@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: pharmacymedicinesupplyrepos
-        image: medicinesupplycr.azurecr.io/pharmacymedicinesupplyrepos:latest
+        image: medicinesupplycr1.azurecr.io/pharmacymedicinesupplyrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
